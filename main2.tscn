@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://bu6e40m8xk0nr"]
 
 [ext_resource type="Script" uid="uid://bn5wwi7wbnwjv" path="res://Main.gd" id="1_sck4r"]
-[ext_resource type="Texture2D" uid="uid://c3ed8vb23cqop" path="res://dark-pink-blurred-template-vector.jpg" id="2_1mhn8"]
-[ext_resource type="FontFile" uid="uid://drgqe4kpx4cyj" path="res://Orbitron-VariableFont_wght.ttf" id="3_0rof8"]
+[ext_resource type="Texture2D" uid="uid://bikjdsu5geyar" path="res://assets/dark-pink-blurred-template-vector.jpg" id="2_sck4r"]
+[ext_resource type="FontFile" uid="uid://cm6cjaeq73aih" path="res://sounds/Orbitron-VariableFont_wght.ttf" id="3_1mhn8"]
 [ext_resource type="AudioStream" uid="uid://cj668ehqggxqn" path="res://sounds/move.wav" id="4_w8cd7"]
 [ext_resource type="AudioStream" uid="uid://cwp4le6gen4vu" path="res://sounds/win.wav" id="5_l8hla"]
 [ext_resource type="AudioStream" uid="uid://dfonqwsqp7htk" path="res://sounds/click.wav" id="6_hi5em"]
@@ -52,7 +52,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_1mhn8")
+texture = ExtResource("2_sck4r")
 stretch_mode = 6
 
 [node name="Board" type="GridContainer" parent="." unique_id=1826209863]
@@ -77,6 +77,7 @@ custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 48
 theme_override_styles/normal = SubResource("StyleBoxFlat_ig7tw")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0xm2m")
@@ -87,6 +88,7 @@ custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 48
 theme_override_styles/normal = SubResource("StyleBoxFlat_ig7tw")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0xm2m")
@@ -97,6 +99,7 @@ custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 48
 theme_override_styles/normal = SubResource("StyleBoxFlat_ig7tw")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0xm2m")
@@ -107,6 +110,7 @@ custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 48
 theme_override_styles/normal = SubResource("StyleBoxFlat_ig7tw")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0xm2m")
@@ -117,6 +121,7 @@ custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 48
 theme_override_styles/normal = SubResource("StyleBoxFlat_ig7tw")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0xm2m")
@@ -127,6 +132,7 @@ custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 48
 theme_override_styles/normal = SubResource("StyleBoxFlat_ig7tw")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0xm2m")
@@ -137,6 +143,7 @@ custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 48
 theme_override_styles/normal = SubResource("StyleBoxFlat_ig7tw")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0xm2m")
@@ -147,6 +154,7 @@ custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 48
 theme_override_styles/normal = SubResource("StyleBoxFlat_ig7tw")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0xm2m")
@@ -157,6 +165,7 @@ custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 48
 theme_override_styles/normal = SubResource("StyleBoxFlat_ig7tw")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0xm2m")
@@ -172,7 +181,7 @@ anchor_bottom = 1.0
 offset_top = -31.0
 grow_horizontal = 2
 grow_vertical = 0
-theme_override_fonts/font = ExtResource("3_0rof8")
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 40
 text = " Restart Game"
 
@@ -188,7 +197,7 @@ offset_left = -152.5
 offset_right = 152.5
 offset_bottom = 46.0
 grow_horizontal = 2
-theme_override_fonts/font = ExtResource("3_0rof8")
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 48
 text = "TIC  TAC  TOE
 "
@@ -214,7 +223,7 @@ grow_vertical = 2
 
 [node name="GameTitle" type="Label" parent="MenuUI" unique_id=296986628]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_0rof8")
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 60
 text = "Tic-Tac-Toe
 
@@ -223,7 +232,7 @@ horizontal_alignment = 1
 
 [node name="StartButton" type="Button" parent="MenuUI" unique_id=904820136]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_0rof8")
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 41
 text = "Start Game
 "
@@ -231,13 +240,13 @@ icon_alignment = 1
 
 [node name="PvPButton" type="Button" parent="MenuUI" unique_id=1874934771]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_0rof8")
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 41
 text = "Player vs Player"
 
 [node name="AIButton" type="Button" parent="MenuUI" unique_id=1300190302]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_0rof8")
+theme_override_fonts/font = ExtResource("3_1mhn8")
 theme_override_font_sizes/font_size = 41
 text = "Player vs Computer
 "
@@ -245,11 +254,13 @@ text = "Player vs Computer
 [node name="EasyButton" type="Button" parent="MenuUI" unique_id=1442780315]
 visible = false
 layout_mode = 2
+theme_override_fonts/font = ExtResource("3_1mhn8")
 text = "EASY"
 
 [node name="MediumButton" type="Button" parent="MenuUI" unique_id=1902745343]
 visible = false
 layout_mode = 2
+theme_override_fonts/font = ExtResource("3_1mhn8")
 text = "MEDIUM"
 
 [node name="HardButton" type="Button" parent="MenuUI" unique_id=1902824240]
@@ -268,7 +279,6 @@ offset_top = -29.5
 offset_bottom = 29.5
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("3_0rof8")
 theme_override_font_sizes/font_size = 40
 text = "Back to Main Menu
 "
