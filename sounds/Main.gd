@@ -277,6 +277,7 @@ func win_block_or_best():
 				make_ai_play(i)
 				return
 			board[i] = ""
+
 	if board[4] == "":
 		make_ai_play(4)
 		return
